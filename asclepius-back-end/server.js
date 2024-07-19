@@ -30,6 +30,7 @@ app.use(methodOverride("_method"));
 /*
 =============== Routes =============== */
 app.use('/users', usersRouter);
+app.use('/practitioners', practitionersRouter)
 
 
 app.get("/", (req, res) => {
